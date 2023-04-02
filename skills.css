@@ -1,0 +1,163 @@
+.wrapper {
+  width: 900px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+.skill {
+  margin-bottom: 35px;
+  position: relative;
+  overflow-x: hidden;
+}
+.skill > p {
+  font-size: 18px;
+  font-weight: 700;
+  color: gainsboro;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.skill:before {
+  width: 100%;
+  height: px;
+  content: "";
+  display: block;
+  position: absolute;
+  background: gainsboro;
+  bottom: 0;
+}
+.skill-bar {
+  width: 100%;
+  height: 10px;
+  background: rgb(76, 92, 49);
+  display: block;
+  position: relative;
+}
+
+/* SKILL 1 */
+.skill1 {
+  width: 95%;
+}
+.skill-bar span {
+  position: absolute;
+  border-top: 5px solid #f4392f;
+  top: -30px;
+  padding: 0;
+  font-size: 18px;
+  padding: 3px 0;
+  font-weight: 500;
+}
+.skill-bar {
+  position: relative;
+}
+
+.skill1 .skill-count1 {
+  right: 0;
+  color: gainsboro;
+}
+/* SKILL 2 */
+.skill2 {
+  width: 85%;
+  color: gainsboro;
+}
+
+.skill2 .skill-count2 {
+  right: 0;
+  color: gainsboro;
+}
+/* SKILL 3 */
+.skill3 {
+  width: 75%;
+  color: gainsboro;
+}
+.skill3 .skill-count3 {
+  right: 0;
+  color: gainsboro;
+}
+
+/* SKILL 4 */
+.skill4 {
+  width: 65%;
+  color: gainsboro;
+}
+
+.skill4 .skill-count4 {
+  right: 0;
+  color: gainsboro;
+}
+
+/* SKILL 5 */
+.skill5 {
+  width: 80%;
+  color: gainsboro;
+}
+
+.skill5 .skill-count5 {
+  right: 0;
+  color: gainsboro;
+}
+
+/* SKILL 6 */
+.skill6 {
+  width: 90%;
+  color: gainsboro;
+}
+
+.skill6 .skill-count6 {
+  right: 0;
+  color: gainsboro;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-position: bottom;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 a {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100;
+  text-decoration: none;
+  padding: 3px;
+  display: inline-block;
+  position: relative;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.card-container .round {
+  border: 3px solid #ffffff;
+  background-color: rgb(76, 92, 49);
+  border-radius: 50%;
+  padding: 7px;
+  width: 350px;
+  align-self: center;
+  margin-top: 30px;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.9),
+    25px 0px 20px -20px rgba(0, 0, 0, 0.9),
+    0px 25px 20px -20px rgba(0, 0, 0, 0.9),
+    -25px 0px 20px -20px rgba(0, 0, 0, 0.9);
+}
+
+a.effect-underline:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.effect-underline:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
